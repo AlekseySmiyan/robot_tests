@@ -42,7 +42,7 @@ Default:
             accelerator: 1440
             tender:  [0, 30]
         dgfFinancialAssets:
-           accelerator: 1440
+           accelerator: 288
            auction:  [25, 30]
         dgfOtherAssets:
             accelerator: 1440
@@ -326,13 +326,13 @@ Publicbid:
     intervals:
         default:
             enquiry: [1, 10]
-            tender:  [1, 20]
+            tender:  [1, 30]
         dgfFinancialAssets:
            accelerator: 288
-           auction:  [15, 20]
+           auction:  [55, 60]
         dgfOtherAssets:
             accelerator: 1440
-            auction:  [15, 20]
+            auction:  [55, 60]
     keywords_file: publicbid
     roles:
         provider:       Publicbid_Provider1
