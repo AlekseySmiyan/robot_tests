@@ -180,26 +180,34 @@ users:
         size:     [1280, 1024]
     Publicbid_Owner:
         broker:   Publicbid
-        homepage: "http://217.76.194.185:56034/"
-        login:    owner_pb@yopmail.com
+        homepage: "http://80.92.239.171/"
+        login:    prozorro@bigmir.net 
         password: P@ssw0rd
         browser:  chrome
         position: [0, 0]
-        size:     [1000, 720]
+        size:     [1600, 1200]
     Publicbid_Viewer:
         broker:   Publicbid
-        homepage: "http://217.76.194.185:56034/"
+        homepage: "https://192.168.120.125/"
         browser:  chrome
         position: [0, 450]
-        size:     [1000, 720]
+        size:     [1600, 1200]
     Publicbid_Provider1:
         broker:   Publicbid
-        homepage: "http://217.76.194.185:56034/"
-        login:    provider_pb@yopmail.com
+        homepage: "https://192.168.120.125/"
+        login:    prozz1@yopmail.com
         password: P@ssw0rd
         browser:  chrome
         position: [450, 0]
-        size:     [1000, 720]
+        size:     [1600, 1200]
+    Publicbid_Provider2:
+        broker:   Publicbid
+        homepage: "https://192.168.120.125/"
+        login:    prozz2@yopmail.com 
+        password: P@ssw0rd
+        browser:  chrome
+        position: [450, 0]
+        size:     [1600, 1200]
     PublicPortal_Viewer:
         broker:   PublicPortal
         homepage: "https://qa23.prozorro.gov.ua/tender/search/"

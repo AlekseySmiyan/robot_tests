@@ -132,15 +132,22 @@ Prom:
     timeout_on_wait: 10
 Publicbid:
     intervals:
+        openua:
+            enquiry: [1, 75]
+            tender:  [1, 80]
+        openeu:
+            enquiry: [1, 85]
+            tender:  [1, 90]
         default:
-            enquiry: [1, 10]
-            tender:  [1, 12]
+            enquiry: [1, 25]
+            tender:  [1, 30]
     keywords_file: publicbid
     roles:
         provider:       Publicbid_Provider1
+        provider1:      Publicbid_Provider2
         tender_owner:   Publicbid_Owner
         viewer:         Publicbid_Viewer
-    timeout_on_wait: 120
+    timeout_on_wait: 60
 PublicPortal:
     keywords_file: publicportal
     roles:
